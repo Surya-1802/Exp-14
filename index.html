@@ -7,17 +7,19 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url('https://wallpaperaccess.com/full/706923.jpg');
+      background: url("https://wallpaperaccess.com/full/706923.jpg");
+      
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
     .container {
-      background: white;
+      background: rgba(0px,0px,0px, 0.3px);
+      backdrop-filter: blur(0.5px);
       padding: 20px 30px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
       width: 350px;
     }
     h2 {
@@ -33,7 +35,8 @@
       width: 100%;
       padding: 8px;
       margin-top: 5px;
-      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,0.5);
+      background-color: rgba(241, 232, 232, 0.011);
       border-radius: 5px;
     }
     button {
